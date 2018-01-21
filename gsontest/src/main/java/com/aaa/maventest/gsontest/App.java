@@ -14,7 +14,7 @@ public class App {
 		// AppTest appTest = new AppTest("maven_tset");
 		Emp emp = new Emp();
 		emp.setId(15);
-		emp.setName("尼根 rick");
+		emp.setName("尼根 rick hey");
 
 		String EmpGson = gson.toJson(emp,Emp.class);
 		System.out.println(EmpGson);
